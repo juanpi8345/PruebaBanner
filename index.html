@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Prueba Banner</title>
+	<link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header class="cabecera">
+	 <div class="container">
+			<img src="img/logo.png" class="logo" width="138" height="140">
+			 <nav class="menu">
+				<a href="index.html">La carta</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="contacto.html">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<section id="banner">
+			<img src="img/imagen2.jpg" width ="1920" height="1080" class="imagen-banner">
+			<div class="container"> <!-- Reutilizamos el container para que la web siga un cierto orden -->
+				<div class="fila"> <!-- Creamos la clase fila, (No lo pienses como una tabla, la clase fila resta el padding que tendra la proxima clase "columna" con un margin, ya que padding no admite valores negativos) -->
+					<div class="columna columna-50"> <!-- Creamos la clase columna, y ademas la clase columna-50 para darle una propiedad extra. Hacemos otra para poder reutilizarla en nuestra web, y no cambiar todas las columnas -->
+						 <h1>Lee nuestra carta</h1>
+						 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						 quis nostrud exercitatio</p>
+						 <a href="" class="btn boton-transparente">Ver carta</a>  
+					</div>
+				</div>
+			</div>	
+</section>
+</body>
+</html>
